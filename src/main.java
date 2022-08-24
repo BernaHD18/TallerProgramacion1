@@ -7,7 +7,24 @@ public class main {
     public static void main(String[] args) {
         menu();
 
+        private String libro;
+        private String autor;
+        private String editorial;
 
+        public libro(String libro, String autor, String editorial) {
+            this.libro = libro;
+            this.autor = autor;
+            this.editorial = editorial;
+        }
+
+        public String getLibro() {
+            return libro;
+        }
+        public String getAutor() {
+            return autor;
+        }
+        public String toString() {
+            return "Libro: " + this.libro + "\tautor: " + this.autor + "\tEditorial: " + this.editorial;
 
         public static String [][] agrgarLibro(String misLibros[], String titulo, String autor, String editorial)
 
